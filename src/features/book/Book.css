@@ -1,0 +1,34 @@
+.book{
+    border: 2px groove rgb(95, 94, 94);
+    margin:0 5px 20px;
+    background-color: rgb(177, 177, 177);
+    position: relative;
+}
+.book-img{
+    width: 100%;
+    background-size: cover;
+}
+
+.buy-now{
+    width: 90%;
+    border: none;
+    background-color: rgb(144, 65, 65);
+    color: white;
+    padding: 5px;
+    display: block; 
+    position: absolute;
+    bottom: 0px;
+}
+
+.buy-now:hover,.book-img-div:hover{
+    cursor: pointer;
+}
+
+.description{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.description p,h2{
+    margin-bottom: 10px;
+}
